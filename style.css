@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Blue: hsl(246, 80%, 60%);
+    --Light-red: hsl(15, 100%, 70%);
+    --Soft-blue: hsl(195, 74%, 62%);
+    --Light-red2: hsl(348, 100%, 68%);
+    --Lime-green: hsl(145, 58%, 55%);
+    --Violet: hsl(264, 64%, 52%);
+    --Soft-orange: hsl(43, 84%, 65%);
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-color: var(--Very-dark-blue);
+}
+.self-card_container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 90%;
+    height: 110px;
+    background-color: var(--Blue);
+    z-index: 5;
+}
+.frequency-time_container{
+    position: relative;
+    top: -10px;
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 90%;
+    height: 70px;
+    background-color: var(--Dark-blue);
+}
+.data-self{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.data-self span img{
+    width: 55px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.data-self span p:nth-child(1){
+    color: var(--Pale-Blue);
+    font-size: 1.2rem;
+}
+.data-self span p:nth-child(2){
+    color: #fff;
+    font-size: 1.8rem;
+}
+.frequency{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 1.6rem;
+    color: var(--Desaturated-blue);
+    margin: 15px;
+    margin-top: 0;
+}
+.frequency p:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.frequency p:active{
+    color: #fff;
+    cursor: pointer;
+}
+.work-card_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 90%;
+    height: 150px;
+    background-color: var(--Light-red);
+    overflow: hidden;
+}
+.icon{
+    position: absolute;
+    top: -8px;
+    right: 10px;
+}
+.data{
+    position: absolute;
+    bottom: 0px;
+    border-radius: 15px;
+    width: 100%;
+    height: 110px;
+    background-color: var(--Dark-blue);
+}
+.data-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 0 25px;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.data-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px 25px 0 25px;
+}
+.data-bottom p:nth-child(1){
+    font-size: 2.8rem;
+    color: #fff;
+    opacity: .8;
+}
+.data-bottom p:nth-child(2){
+    font-size: 1.3rem;
+    color: var(--Desaturated-blue);
+}
+.play-card_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 90%;
+    height: 150px;
+    background-color: var(--Soft-blue);
+    overflow: hidden;
+}
+.study-card_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 90%;
+    height: 150px;
+    background-color: var(--Light-red2);
+    overflow: hidden;
+}
+.exercise-card_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 90%;
+    height: 150px;
+    background-color: var(--Lime-green);
+    overflow: hidden;
+}
+.social-card_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 90%;
+    height: 150px;
+    background-color: var(--Violet);
+    overflow: hidden;
+}
+.selfCare-card_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 90%;
+    height: 150px;
+    background-color: var(--Soft-orange);
+    overflow: hidden;
+}
